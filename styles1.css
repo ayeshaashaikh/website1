@@ -1,0 +1,126 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Sans-serif font */
+    font-weight: bold;
+    line-height: 1.6;
+    background-color: #ffffff; /* White background color */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #ffffff; /* White background color */
+    color: #5c43e7; /* Header text color */
+    padding: 20px 0;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #b3b2b2; /* Navigation link color */
+    text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+    color: #b3b2b2; /* Hero section text color */
+    padding: 100px 0;
+    text-align: left; /* Align text to the left */
+    display: flex;
+    align-items: flex-start;
+}
+.hero .container {
+    max-width: none; /* Override the max-width of container */
+    width: 100%; /* Full width */
+    padding-left:100px; /* Add some left padding */
+}
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: rgb(45, 45, 198); /* Hero section heading color */
+}
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #0e063c; /* Hero section paragraph color */
+}
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff; /* Button background color */
+    color: #5c43e7; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.hero .btn:hover {
+    background-color: #f0f0f0; /* Button hover background color */
+}
+
+/* About section styles */
+.about {
+    padding: 80px 0;
+}
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Features section styles */
+.features {
+    padding: 80px 0;
+}
+.features h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.features ul {
+    list-style-type: none;
+}
+.features ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Specific styling for Register link */
+nav ul li a[href="#Register"] {
+    color: #fff; /* White text color */
+    background-color: #5c43e7; /* Blue background color */
+    padding: 10px 20px; /* Adjust padding for better appearance */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+nav ul li a[href="#Register"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Navigation link hover styles */
+nav ul li a:hover {
+    color: #000000; /* Black text color on hover */
+}
+

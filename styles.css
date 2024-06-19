@@ -1,0 +1,513 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; /* Sans-serif font */
+    font-weight: bold;
+}
+
+header {
+   /* background-color: white; /* Set background color for the header */
+    position: fixed; /* Fix the header at the top */
+    width: 100%; /* Ensure the header spans the entire width */
+    z-index: 1000; /* Set a high z-index to ensure the header stays on top */
+   
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; /* Adjusted margin for better alignment */
+    font-size: 24px; /* Increase font size for better visibility */
+    font-weight: bold; /* Make the logo stand out */
+    color: #5c43e7; /* Purple color */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Adjust as needed */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555; /* Darker grey for better readability */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    color: #333; /* Darken color on hover */
+}
+
+#Register {
+    background-color: #007bff; /* Use a slightly darker blue */
+    padding: 8px 16px; /* Increase padding for better button appearance */
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+    color: white;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+#Register:hover {
+    background-color: #0056b3; /* Darken color on hover */
+}
+
+.hero {
+    padding-top: 100px; /* Adjust top padding for hero section */
+    padding-left: 0px;
+    background-color: #f2f2f9; /* Example background color */
+    background-image: url('hero-background.jpg'); /* Example background image */
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    text-align: center;
+    height: 600px; /* Example height */
+}
+
+.hero .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Adjust gap between text and image */
+    padding-left: 30px; /* Adjust as needed */
+    padding-right: 30px; /* Adjust as needed */
+}
+
+.hero-content {
+    max-width: 800px; /* Adjust max width of content */
+}
+
+.text {
+    max-width: 50%; /* Adjust as needed */
+    text-align: left; /* Align text to the left */
+}
+
+.text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color:white;
+}
+
+#middle {
+    color: #0f3762;
+    font-weight: bold;
+    color:white;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #00c5c9;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    background: #00c5c9;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.hero-content img {
+    width: 100%; /* Make image responsive */
+    max-width: 500px; /* Limit maximum width of image */
+    border-radius: 8px; /* Example border radius */
+}
+
+/* About section styles */
+.about {
+    padding: 80px 0;
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Features section styles */
+.features {
+    padding: 80px 0;
+}
+
+.features h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.features ul {
+    list-style-type: none;
+}
+
+.features ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+nav ul li a[href="register.php"] {
+    color: #fff; /* White text color */
+    background: #00c5c9; /* Blue background color */
+    padding: 10px 20px; /* Adjust padding for better appearance */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+nav ul li a[href="register.php"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+
+/* Navigation link hover styles */
+nav ul li a:hover {
+    color: #00c5c9; /* Black text color on hover */
+}
+
+/* Registration form styles */
+.registration {
+    padding: 50px 0;
+}
+
+.registration .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+
+}
+
+.registration h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #00c5c9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #4b3299;
+}
+
+nav ul li a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5c43e7; /* Blue background color */
+    color: #fff; /* White text color */
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    max-width: 60px; /* Set maximum width for the button */
+}
+
+nav ul li a.btn:hover {
+    background-color: #4b3299; /* Darker blue on hover */
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+}
+
+.login .container {
+    max-width: 600px; /* Adjust the width of the container */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius:30px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase shadow size */
+}
+
+.login h2 {
+    text-align: center;
+}
+
+.login-form .form-group {
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+.profile {
+    padding: 80px 0;
+    background-color: #f8f9fc;
+}
+
+.profile .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding-top: 120px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+}
+
+.profile-picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px
+}
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.profile-picture p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.profile-picture .btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.profile-picture .btn:hover {
+    background: #0056b3;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.profile-info .form-group {
+    margin-bottom: 15px;
+}
+
+.profile-info label {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.profile-info input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.profile-info .btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.profile-info .btn:hover {
+    background: #0056b3;
+}
+
+/* Flexbox for hero section and menu */
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the start to avoid vertical center alignment */
+}
+
+.content-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.hero-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.menu {
+    flex: 0 0 300px;
+    right: -300px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    margin-top: 40px;
+    padding-bottom: 90px;
+}
+
+.menu h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    
+    height: 100%;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.menu ul li a {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    background-color:rgba(4,36,61,255);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding-left: 50px;
+    margin-left: 20px;
+}
+
+.menu ul li a:hover {
+    background: blue;
+    color: #fff;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust container width for smaller screens */
+    }
+
+    .logo {
+        font-size: 20px; /* Decrease font size for smaller screens */
+    }
+
+    .hero .container {
+        flex-direction: column; /* Stack hero content vertically on smaller screens */
+        align-items: center; /* Center items vertically */
+        text-align: center;
+    }
+
+    .hero-content {
+        padding-right: 0; /* Remove padding on the right for hero content */
+        margin-bottom: 20px;
+    }
+
+    .text {
+        max-width: 100%; /* Adjust max width of text */
+    }
+
+    .menu {
+        margin-top: 20px; /* Adjust margin top for menu on smaller screens */
+    }
+
+    .menu ul li a {
+        width: 100%; /* Full width for menu links on smaller screens */
+        padding-left: 0; /* Remove left padding for menu links */
+        margin-left: 0; /* Remove left margin for menu links */
+    }
+}
+
+/* Example additional styles */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
